@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppin&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#sidebar{
+  position: fixed;
+  width: 250px;
+  height: 300px;
+  background: #7fF0f1;
+  border: 4px solid #9c0000; border-radius: 17px;
+  z-index: 1;
+  left: -250px;
+  top: 10px;
+  transition: all 0.8s;
+}
+
+#sidebar.active {
+  left: 10px;
+}
+
+#sidebar ul li:first-child{
+  text-align: center;
+  color: #000;
+  font-size: 1.95em;
+  list-style: none;
+  padding: 25px 10px;
+}
+
+#sidebar ul li:not(first-child){
+  width: 90%;
+  text-align: center;
+  font-size: 1.3em;
+  list-style: none;
+  padding: 15px 10px;
+  color: #333;
+}
+
+#sidebar ul li a{
+  color: #000;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover
+{
+  color: #390;
+  transition: all 0.8s;
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 270px;
+  top: 20px;
+  background: rgba(255, 255, 255, 0.55);
+  padding: 10px;
+  border-radius: 17px;
+  cursor: pointer;
+}
+
+#sidebar .toggle-btn span{
+  display: block;
+  width: 25px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: 4px 0;
+  border-radius: 10px;
+}
+
+#sidebar .toggle-btn::before,
+#sidebar .toggle-btn::after
+{
+  transition: all 1.2s;
+}
+
+#sidebar .toggle-btn:hover::before{border-radius: 50%;}
+#sidebar .toggle-btn:hover::after{border-radius: 50%;}
+
+
+
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: rgba(43, 8, 87, 1);
+}
+
+.card{
+  width: 300px; height: 400px;
+  position: relative; cursor: url('cursors/NO.cur'), default;
+  z-index: 1;
+}
+
+img{
+  width: 50%;
+  text-align: center;
+
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.card .content{
+  width: 100%; height: 100%;
+  background: rgba(255, 255, 255, 0.36);
+  border: 1px solid white;
+  border-radius: 20px;
+  justify-content: center; align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.55);
+  transition: all .8s;
+  color: #444;
+}
+
+.card .content p{
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  top: 8%;
+}
+
+.card .content h1{
+  text-align: center;
+  position: relative;
+  top: 5%
+}
+
+.card:hover .content{color: white;}
+
+.card::before,
+.card::after{
+  content: ''; position: absolute;
+  width: 100%; height: 52%;
+  background: #7fF0f1; z-index: -1;
+  transition: all 1.2s;
+  border-radius: 17px;
+}
+
+.card::before{top: 0; right: 0; filter: blur(15px);}
+.card::after{bottom: 0; left: 0;  filter: blur(15px);}
+
+.card:hover::before{
+  width: 50px; height: 55px;
+  transform: translate(20px, -20px);
+  border-radius: 50%;
+}
+
+.card:hover::after{
+  width: 75px; height: 75px;
+  transform: translate(-30px, 30px);
+  border-radius: 50%;
+}
