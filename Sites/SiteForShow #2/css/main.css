@@ -1,0 +1,68 @@
+* {
+  font-family: "cascadia mono";
+  font-size: 18px;
+  margin: 1px;
+  text-align: center;
+}
+
+body {
+  background-color: #9999;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 8px;
+}
+
+.wrapper > div {
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+}
+
+
+.left-menu > ul > li {
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 7px;
+}
+
+.Menu-text {
+  text-decoration: underline;
+}
+
+.header {
+  background: rgba(159, 4, 207, 0.35);
+  grid-column: 2/7;
+  grid-row: 1;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.main {
+  background: rgba(207, 4, 85, 0.35);
+  grid-column: 2/6;
+  grid-row: 2/7;
+}
+
+.left-menu {
+  background: rgba(79, 38, 150, 0.75);
+  grid-column: 1;
+  grid-row: 1/7;
+}
+.right-news {
+  background: rgba(255,255,255,0.23);
+  grid-column: 6/7;
+  grid-row: 2/7;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0
+}
