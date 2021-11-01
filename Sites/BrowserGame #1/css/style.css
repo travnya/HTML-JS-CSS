@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Cascadia Mono";
+}
+
+canvas {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  cursor: none;
+}
+
+body {
+  background: #777;
+}
+
+div {
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 10px;
+  position: relative;
+
+}
+
+footer {
+  display: block;
+  text-align: center;
+  width: 350px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
