@@ -1,0 +1,7 @@
+.btn-group {
+    height: 35px;
+    margin-bottom: 5px;
+    float: right;
+    display: flex;
+    position: relative;
+}

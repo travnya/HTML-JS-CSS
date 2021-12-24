@@ -1,0 +1,21 @@
+.add-input {
+    width: 15.5em;
+    flex-grow: 1;
+    height: 2.4em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.add-btn {
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+::placeholder {
+    user-select: none;
+}
+
+.add-form {
+    margin-top: 10px;
+}

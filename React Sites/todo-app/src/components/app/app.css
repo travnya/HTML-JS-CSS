@@ -1,0 +1,9 @@
+.main-window {
+    width: 35em;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+body {
+    background-color: rgba(161, 199, 118, 0.2)
+}

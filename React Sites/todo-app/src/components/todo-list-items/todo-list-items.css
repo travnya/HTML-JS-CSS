@@ -1,0 +1,25 @@
+.todo-list-wrapper {
+    font-size: 1.25rem;
+}
+
+.todo-list-item-label {
+    line-height: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.todo-list-wrapper button {
+    width: auto;
+    float: right;
+    margin-left: 7px;
+}
+
+.todo-list-wrapper.done .todo-list-item-label {
+    text-decoration: line-through;
+}
+
+
+.todo-list-wrapper.important .todo-list-item-label {
+    color: rgb(177, 4, 13);
+    font-weight: bold;
+}

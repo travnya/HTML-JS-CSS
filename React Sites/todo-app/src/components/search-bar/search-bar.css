@@ -1,0 +1,13 @@
+.search-input {
+    width: 10em;
+    height: 2.2em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.search-form {
+    width: 10em;
+    height: 2.2em;
+    float: left;
+}
