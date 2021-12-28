@@ -1,0 +1,7 @@
+.header-wrapper {
+    border: 1px solid white;
+    border-radius: 0.5em;
+    grid-row: 1;
+    grid-column: 1/8;
+}
+

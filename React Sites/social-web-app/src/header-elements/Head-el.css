@@ -1,0 +1,18 @@
+.sec-wrapper {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    margin: 2px;
+}
+
+.sec-wrapper img {
+    width: 3em;
+}
+
+.logo {
+    grid-column: 2;
+}
+
+.logo-name {
+    grid-column: 7;
+    margin-bottom: 3px;
+}
