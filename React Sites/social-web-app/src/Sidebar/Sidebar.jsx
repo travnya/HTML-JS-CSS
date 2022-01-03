@@ -6,12 +6,12 @@ export default class Sidebar extends Component {
         return (
             <div className='sidebar-wrapper'>
                 <nav className='nav-menu'>
-                    <button type="button" className='btn btn-outline-light btn-1'><a href='/feed'>Новости</a></button>
-                    <button type="button" className='btn btn-outline-light btn-2'><a href='/profile'>Профиль</a></button>
-                    <button type="button" className='btn btn-outline-light btn-3'><a href='/music'>Музыка</a></button>
-                    <button type="button" className='btn btn-outline-light btn-4'><a href='/videos'>Видеозаписи</a></button>
-                    <button type="button" className='btn btn-outline-light btn-5'><a href='/messages'>Сообщения</a></button>
-                    <button type="button" className='btn btn-outline-light btn-6'><a href='/friends'>Друзья</a></button>
+                    <a href='/feed'><button type="button" className='btn btn-outline-light btn-1'>Новости</button></a>
+                    <a href='/profile'><button type="button" className='btn btn-outline-light btn-2'>Профиль</button></a>
+                    <a href='/friends'><button type="button" className='btn btn-outline-light btn-6'>Друзья</button></a>
+                    <a href='/messages'><button type="button" className='btn btn-outline-light btn-5'>Сообщения</button></a>
+                    <a href='/music'><button type="button" className='btn btn-outline-light btn-3'>Музыка</button></a>
+                    <a href='/videos'><button type="button" className='btn btn-outline-light btn-4'>Видеозаписи</button></a>
                 </nav> 
             </div>
         )

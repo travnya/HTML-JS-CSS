@@ -1,8 +1,10 @@
 .main-wrapper {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    width: 99em;
+    grid-template-columns: 8em 1fr;
     grid-template-rows: 55px 1fr;
     grid-gap: 1em;
     height: 45em;
     padding: 0.3em;
+    margin: 0 auto;
 }

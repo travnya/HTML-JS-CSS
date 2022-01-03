@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import logo from '../resources/amoba.png'
-import './Head-el.css'
+import logo from '../resources/amoeba.png'
+import './HeaderElements.css'
 
-export default class extends Component {
+export default class HeaderElements extends Component {
     render() {
         return (
             <div className='sec-wrapper'>

@@ -1,0 +1,19 @@
+.sec-wrapper {
+    display: grid;
+    grid-template-columns: 8em 1fr;
+    height: 100%;
+}
+
+.sec-wrapper img {
+    width: 3em;
+}
+
+.logo {
+    grid-column: 1;
+    margin: 0 auto;
+}
+
+.logo-name {
+    grid-column: 2;
+    margin: 0 auto;
+}
