@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import HeaderElements from '../header-elements/HeaderElements'
+import HeaderElements from '../HeaderElements/HeaderElements'
 import './Header.css'
 
 export default class Header extends Component {
