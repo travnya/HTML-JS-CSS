@@ -13,8 +13,8 @@ export default class Profile extends Component {
                         <div><b>Пол:</b> Мужской</div>
                         <div><b>Возраст:</b> 19 лет</div>
                     </div>
-                    <Posts/>
                 </div>
+                <Posts />
             </div>
         )
     }

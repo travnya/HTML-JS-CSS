@@ -1,6 +1,7 @@
 .posts-wrapper {
     width: 25em;
     margin: 0 auto;
+    display: block;
 }
 .d-flex .form-control {
     width: 17em;

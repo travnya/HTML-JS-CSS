@@ -1,8 +1,11 @@
 .main-profile-wrapper {
     border-radius: 0.5em;
     grid-row: 2;
-    grid-column: 2;
+    grid-column: 2/3;
     box-shadow: 0 0 1em azure;
+    width: 60em;
+    margin: 0 auto;
+    position: relative;
 }
 
 .content {
@@ -17,11 +20,14 @@
     width: 10em;
     border-radius: 35%;
     border: 2px solid white;
+    display: block;
 }
+
 .information {
     width: 10em;
     height: 5em;
     margin-left: 1em;
     margin-top: auto;
     margin-bottom: auto;
+    display: block;
 }

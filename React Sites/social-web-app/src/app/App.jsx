@@ -9,7 +9,7 @@ export default class App extends Component {
     render() {
         return (
             <div className='main-wrapper'>
-                <Header className='header-wrapper'/>
+                <Header className='header-wrapper' />
                 <Sidebar />
                 <Profile />
             </div>

@@ -1,7 +1,8 @@
 .sidebar-wrapper {
     grid-row: 2;
-    grid-column: 1/2;
+    grid-column: 1;
     text-align: center;
+    margin-left: 18em;
 }
 
 .nav-menu {
