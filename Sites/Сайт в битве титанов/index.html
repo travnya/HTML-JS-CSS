@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Интернет-магазин</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+
+        <!-- Header___start -->
+        <div class="header">
+            <div class="logo">
+                <div class="logo_icon"></div>
+                <p>Magic store</p>
+            </div>
+            <div class="navbar">
+                <ul class="navbar_list">
+                    <li>Главная</li>
+                    <li>Каталог</li>
+                    <li>Доставка</li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
+            <div class="navbar_icons">
+                <div class="icon search"></div>
+                <div class="icon cart"></div>
+                <div class="icon profile"></div>
+            </div>
+        </div>
+        <!-- Header___end -->
+
+        <div class="item_title">Кролики для магии</div>
+
+        <div class="content_wrapper">
+
+            <!-- Filter___start -->
+            <div class="filter">
+                <div class="title">Фильтры</div>
+                <div class="filter_price">
+                    <div class="title_price">Цена</div>
+                    <div class="price_wrapper">
+                        <div class="from_price">
+                            <input type="text" placeholder="4000" class="min_price">
+                            <div class="from">От</div>    
+                        </div>
+                        <div class="to_price">
+                            <input type="text" placeholder="23000" class="max_price">
+                            <div class="to">До</div>       
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="filter_color">
+                    <div class="title_color">Цвет</div>
+                    <div class="checkbox_wrapper1">
+                        <input type="checkbox" id="checkbox1" value="Белый">
+                        <label for="checkbox1" class="checkbox1_title">Белый</label>
+                    </div>
+                    <div class="checkbox_wrapper2">
+                        <input type="checkbox" id="checkbox2">
+                        <label for="checkbox2" class="checkbox2_title">Серый</label>
+                    </div>
+                    <div class="checkbox_wrapper3">
+                        <input type="checkbox" id="checkbox3">
+                        <label for="checkbox3" class="checkbox3_title">Чёрный</label>
+                    </div>
+                </div>
+
+                <div class="filter_size">
+                    <div class="title_size">Размер</div>
+                    <div class="checkbox_wrapper1">
+                        <input type="checkbox" id="checkbox_color1">
+                        <label for="" class="checkbox1_title">Большой</label>
+                    </div>
+                    <div class="checkbox_wrapper2">
+                        <input type="checkbox" id="checkbox_color2">
+                        <label for="" class="checkbox2_title">Средний</label>
+                    </div>
+                    <div class="checkbox_wrapper3">
+                        <input type="checkbox" id="checkbox_color3">
+                        <label for="" class="checkbox3_title">Маленький</label>
+                    </div>
+                </div>
+                <div class="accept">Применить</div>
+            </div>
+            <!-- Filter___end -->
+
+            <!-- Content___start -->
+            <div class="content">
+                <div class="items1">
+                    <div class="wrapper">
+                        <div class="border">
+                            <div class="name">Кролик Боб</div>
+                            <div class="item_image image1"></div>
+                        </div>
+                        <div class="footer">
+                            <div class="price">8490 р.</div>
+                            <div class="add" onclick="show()">В корзину</div>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="border1">
+                            <div class="name1">Кролик Дэвид</div>
+                            <div class="item_image image2"></div>
+                        </div>
+                        <div class="footer1">
+                            <div class="price1">8490 р.</div>
+                            <div class="add1" onclick="show()">В корзину</div>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="border2">
+                            <div class="name2">Кролик Гарфилд</div>
+                            <div class="item_image image3"></div>
+                        </div>
+                        <div class="footer2">
+                            <div class="price2">8490 р.</div>
+                            <div class="add2" onclick="show()">В корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items2">
+                    <div class="wrapper">
+                    <div class="border3">
+                            <div class="name3">Кролик Стив</div>
+                            <div class="item_image image4"></div>
+                        </div>
+                        <div class="footer3">
+                            <div class="price3">8490 р.</div>
+                            <div class="add3" onclick="show()">В корзину</div>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="border4">
+                            <div class="name4">Кролик Питэр</div>
+                            <div class="item_image image5"></div>
+                        </div>
+                        <div class="footer4">
+                            <div class="price4">8490 р.</div>
+                            <div class="add4" onclick="show()">В корзину</div>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="border5">
+                            <div class="name5">Кролик Энтони</div>
+                            <div class="item_image image6"></div>
+                        </div>
+                        <div class="footer5">
+                            <div class="price5">8490 р.</div>
+                            <div class="add5" onclick="show()">В корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items3">
+                    <div class="wrapper">
+                        <div class="border6">
+                            <div class="name6">Кролик Эндрю</div>
+                            <div class="item_image image7"></div>
+                        </div>
+                        <div class="footer6">
+                            <div class="price6">8490 р.</div>
+                            <div class="add6" onclick="show()">В корзину</div>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="border7">
+                            <div class="name7">Кролик Бэнни</div>
+                            <div class="item_image image8"></div>
+                        </div>
+                        <div class="footer7">
+                            <div class="price7">8490 р.</div>
+                            <div class="add7" onclick="show()">В корзину</div>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="border8">
+                            <div class="name8">Кролик Альберт</div>
+                            <div class="item_image image9"></div>
+                        </div>
+                        <div class="footer8">
+                            <div class="price8">8490 р.</div>
+                            <div class="add8" onclick="show()">В корзину</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Content___end -->
+
+        </div>
+
+
+        <!-- PopUp___start -->
+        <div id="pop_up">
+            <div class="pop_up_content">
+                <div class="pop_up_text">Товар добавлен в вашу волшебную корзинку!</div>
+                <div class="pop_up_image"></div>
+                <div class="pop_up_close_btn" onclick="hide()">
+                    <div class="close_btn_text">
+                        Закрыть
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popup___end -->
+        
+        <script src="scripts/script.js"></script>
+    </body>
+</html>

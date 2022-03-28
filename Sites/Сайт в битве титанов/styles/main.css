@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Pacifico&family=Raleway:wght@100&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    max-width: 1420px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo p {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.logo_icon {
+    background-image: url(../svg/logo_icon.svg);
+    width: 60px;
+    height: 60px;
+}
+
+.navbar {
+    padding-right: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 29px;
+    color: #AF48FF;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navbar ul li:hover {
+    color: #5A2384;
+}
+
+.navbar_icons {
+    display: flex;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.search {
+    width: 32px;
+    height: 32px;
+    background-image: url(../svg/search.svg);
+}
+
+.cart {
+    width: 34px;
+    height: 32px;
+    background-image: url(../svg/cart.svg);
+    margin-left: 34px;
+}
+
+.profile {
+    width: 28px;
+    height: 32px;
+    background-image: url(../svg/profile.svg);
+    margin-left: 34px;
+}
+
+.item_title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 39px 421px;
+}
+
+.content_wrapper {
+    display: flex;
+}
+
+.content {
+    display: flex;
+}
+
+.items1, .items2, .items3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 75px;
+}
+
+.wrapper {
+    margin-bottom: 79px;
+}
+
+.border, .border1, .border2, .border3, .border4, .border5, .border6, .border7, .border8 {
+    border: 5px solid #AF48FF;
+    border-radius: 20px;
+    width: 283px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name, .name1, .name2, .name3, .name4, .name5, .name6, .name7, .name8 {
+    margin: 20px 0 27px 0;
+    font-family: 'Pacifico';
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.image1 {
+    width: 110px;
+    height: 202px;
+    background-image: url(../svg/rabbit1.svg);
+}
+
+.image2 {
+    width: 166px;
+    height: 202px;
+    background-image: url(../svg/rabbit2.svg);
+}
+
+.image3 {
+    width: 202px;
+    height: 152px;
+    background-image: url(../svg/rabbit3.svg);
+}
+
+.image4 {
+    width: 202px;
+    height: 169px;
+    background-image: url(../svg/rabbit4.svg);
+}
+
+.image5 {
+    width: 86px;
+    height: 202px;
+    background-image: url(../svg/rabbit5.svg);
+}
+
+.image6 {
+    width: 154px;
+    height: 202px;
+    background-image: url(../svg/rabbit6.svg);
+}
+
+.image7 {
+    width: 125px;
+    height: 202px;
+    background-image: url(../svg/rabbit7.svg);
+}
+
+.image8 {
+    width: 127px;
+    height: 202px;
+    background-image: url(../svg/rabbit8.svg);
+}
+
+.image9 {
+    width: 101px;
+    height: 202px;
+    background-image: url(../svg/rabbit9.svg);
+}
+
+.footer, .footer1, .footer2, .footer3, .footer4, .footer5, .footer6, .footer7, .footer8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 283px;
+}
+
+.price, .price1, .price2, .price3, .price4, .price5, .price6, .price7, .price8 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.price_wrapper {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.from_price {
+    margin-right: 5px;
+}
+
+.add, .add1, .add2, .add3, .add4, .add5, .add6, .add7, .add8 {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.filter {
+    width: 240px;
+    height: 580px;
+    background-color: #AF48FF;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 181px;
+    color: #ffffff;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title_price {
+    margin: 0 0 5px 20px;
+    font-size: 18px;
+}
+
+.from {
+    font-size: 16px;
+}
+
+.to{
+    font-size: 16px;
+}
+
+.filter_price {
+    margin-top: 20px;
+}
+
+.min_price, .max_price {
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    width: 94px;
+    height: 33px;
+}
+
+.min_price::placeholder, .max_price::placeholder {
+    padding-left: 12px;
+}
+
+.title_color, .checkbox_wrapper1, .checkbox_wrapper2, .checkbox_wrapper3, .title_size, .checkbox_color1, .checkbox_color2, .checkbox_color3{
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.filter_color {
+    margin: 30px 0 0 20px;
+}
+
+.filter_size {
+    margin: 30px 0 0 20px;
+}
+
+.accept {
+    width: fit-content;
+    text-align: center;
+    margin: 35px auto;
+    font-size: 18;
+    font-weight: 400;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.accept:hover {
+    color: #ccc;
+}
+
+#pop_up {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    visibility: hidden;
+}
+
+#pop_up > div {
+    visibility: inherit;
+}
+.pop_up_content {
+    width: 700px;
+    height: 512px;
+    background-color: #e5e5e5;
+    position: relative;
+    margin: 150px auto;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 100px black;
+}
+
+.pop_up_text {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 24px;
+    margin: 40px 0 52px 0;
+}
+
+.pop_up_image {
+    width: 304px;
+    height: 251px;
+    background-image: url(../svg/pop_up_image.svg);
+}
+
+.pop_up_close_btn {
+    background-color: #AF48FF;
+    width: 164px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 51px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.close_btn_text {
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: #ffffff;
+    font-style: 24px;
+    margin: 0 auto;
+}
+
+.pop_up_close_btn:hover {
+    background-color: #ffffff;
+}
+
+.pop_up_close_btn:hover .close_btn_text {
+    color: #AF48FF;
+}
