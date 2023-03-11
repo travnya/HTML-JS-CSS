@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #333333;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: white;
+	border-radius: 10px;
+}
+
+/* Desktop Styles */
+.header-content {
+	margin: 0 auto 5% auto;
+	width: 70%;
+	height: 99vh;
+}
+
+.content {
+	margin: 5% auto;
+	width: 70%;
+}
+
+.background-dark {
+	width: 100%;
+	background-color: #333333;
+	background-image: url('/sources/images/background-dark.svg');
+	background-size: cover;
+}
+
+.background-dark-2 {
+	width: 100%;
+	background-color: #333333;
+	background-image: url('/sources/images/background-dark-2.svg');
+	background-size: cover;
+}
+
+.background-light {
+	width: 100%;
+	background-color: white;
+}
+
+/* Navbar Styles */
+.navbar {
+	margin-top: 10px;
+	margin-bottom: 5%;
+	min-height: 95px;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	background-image: url('/sources/icons/main_logo.svg');
+}
+
+.anchors {
+	margin-left: 4%;
+	display: flex;
+	gap: 40px;
+}
+
+.anchor {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 32px;
+	letter-spacing: 0.1px;
+	color: white;
+	text-decoration: none;
+	transition: .5s all ease-out;
+}
+
+.anchor:hover {
+	color: #e6fb9a
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	margin-left: 4%;
+}
+
+.contact {
+	display: flex;
+	gap: 5px;
+}
+
+.phone-number {
+	text-decoration: none;
+	transition: .5s all ease-out;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	color: white;
+}
+
+.phone-number:hover {
+	color: #e6fb9a
+}
+
+.mail {
+	text-decoration: none;
+	transition: .5s all ease-out;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	color: white;
+}
+
+.mail:hover {
+	color: #e6fb9a
+}
+
+.social-links {
+	margin-left: 4%;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.social-link {
+	cursor: pointer;
+	transition: .5s all ease-out;
+}
+
+/* Первый блок */
+.first-block {
+	/* margin-top: 9%;
+	margin-bottom: 10%; */
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+.fb-title {
+	font-weight: 500;
+	font-size: 58px;
+	line-height: 71px;
+	letter-spacing: 0.2px;
+}
+
+.fb-subtitle {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+	color: #FAFAFA;
+}
+
+.order-button-light {
+	width: fit-content;
+	padding: 15px 40px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	transition: .15s all ease-out;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.2px;
+
+	color: #252B42;
+	background-color: white;
+}
+
+.order-button-light:hover {
+	color: white;
+	background-color: #252B42;
+}
+
+.order-button-light:active {
+	color: #252B42;
+	background-color: white;
+}
+
+.order-button-dark {
+	width: fit-content;
+	padding: 15px 40px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	transition: .15s all ease-out;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.2px;
+
+	color: white;
+	background-color: #252B42;
+}
+
+.order-button-dark:hover {
+	color: #252B42;
+	background-color: white;
+}
+
+.order-button-dark:active {
+	color: white;
+	background-color: #252B42;
+}
+
+/* Примеры работ */
+.projects-title {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+
+.projects-examples {
+	margin-top: 8%;
+	display: flex;
+	gap: 5px;
+}
+
+.projects-examples>img {
+	width: 33%;
+}
+
+/* Описание качества */
+.description {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+}
+
+.desc-item {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+
+.desc-item-2 {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+
+.desc-title-wrap {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.desc-title {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+
+.desc-subtitle {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+
+/* Преимущества */
+.adv-title {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+
+.adv-items {
+	margin-top: 5%;
+	width: 100%;
+	display: flex;
+	gap: 30px;
+}
+
+.adv-items-col {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.adv-item {
+	display: flex;
+	gap: 20px;
+}
+
+.adv-pointer {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #252B42;
+}
+
+.adv-item-title-wrap {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.adv-item-title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	color: #252B42;
+}
+
+.adv-item-subtitle {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.2px;
+	color: #737373;
+}
+
+/* Каталог изделий */
+.catalog-title {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+
+.catalog-wrapper {
+	display: flex;
+	gap: 45px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5%;
+}
+
+.catalog-item {
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+}
+
+.catalog-example {
+	transition: 0.3s all ease-out;
+	cursor: pointer;
+	height: 250px;
+	width: 85%;
+}
+
+.catalog-example:hover {
+	transform: scale(1.1);
+}
+
+.catalog-name {
+	margin-top: 10%;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.1px;
+	color: #252B42;
+}
+
+.catalog-price-wrap {
+	display: flex;
+	gap: 5px;
+}
+
+.catalog-price-prefix {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.1px;
+	color: #737373;
+}
+
+.catalog-price {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.1px;
+	color: #252B42;
+}
+
+/* Описание преимуществ */
+
+.adv-description {
+	width: 100%;
+	height: 89vh;
+	display: flex;
+	gap: 50px;
+}
+
+.adv-desc-wrap {
+	display: flex;
+	align-items: center;
+	gap: 100px;
+}
+
+.adv-desc-col {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.adv-desc-title {
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+}
+
+.adv-desc-subtitle {
+	width: 85%;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+}
+
+.adv-desc-wrap-2 {
+	display: flex;
+	gap: 40px;
+}
+
+.adv-desc-col-2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.adv-desc-item {
+	width: 80%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 25px;
+}
+
+.adv-desc-item-pointer {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.adv-desc-item-name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	color: #FFFFFF;
+}
+
+/* Расчёт стоимости */
+
+.double-bg-wrap {
+	display: flex;
+}
+
+.order-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.form-title {
+	margin-bottom: 30px;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+
+.form-element {
+	width: 100%;
+	height: 50px;
+	padding: 0 20px;
+	background-color: #F9F9F9;
+	border: 1px solid #E6E6E6;
+	border-radius: 5px;
+}
+
+.textarea {
+	padding: 20px 20px;
+	min-height: 150px;
+	resize: none;
+}
+
+/* Сотрудничество */
+.cooperation-wrap {
+	width: 70%;
+	height: 89vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 40px;
+}
+
+.coop-title {
+	font-weight: 500;
+	font-size: 40px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+}
+
+.coop-subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+}
+
+.coop-list {
+	color: white;
+	list-style-type: disc;
+}
+
+/* Напишите нам */
+.contact-us-wrap {
+	margin: auto auto;
+	display: flex;
+}
+
+.contact-us-col,
+.contact-us-col-2 {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-us-col {
+	gap: 35px;
+	margin: auto;
+}
+
+.contact-us-title {
+	font-weight: 500;
+	font-size: 40px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+
+.contact-us-subtitle {
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+
+.contact-us-col-2-wrapper {
+	display: flex;
+	gap: 50px;
+}
+
+.contact-us-subcol {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.contact-us-item {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.contact-us-item-divider {
+	width: 50px;
+	border: 1px solid #23A6F0;
+}
+
+.contact-us-item-title {
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 0.1px;
+	color: #252B42;
+}
+
+.contact-us-item-subtitle {
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.1px;
+	color: #252B42;
+}
