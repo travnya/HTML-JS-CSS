@@ -1,21 +1,42 @@
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+
+	.container {
+		width: 100%;
+	}
+
+	.content {
+		width: 90%;
+	}
 
 	.header-content {
 		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 100px;
+		width: 90%;
 	}
 
 	.navbar {
-		justify-content: center;
+		justify-content: space-between;
+		align-items: center;
 	}
 
-	.anchors,
-	.contacts {
+	.social-links {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+	}
+
+	.link-wrap {
+		border: none;
+		background-color: inherit;
+	}
+
+	.anchors {
 		display: none;
-	}
-
-	.fb-title,
-	.fb-subtitle {
-		text-align: center;
 	}
 
 	.order-button-light,
@@ -23,22 +44,37 @@
 		margin: 0 auto;
 	}
 
+	.first-block {
+		align-items: center;
+		gap: 50px;
+	}
+
 	.fb-title {
+		text-align: center;
 		font-weight: 500;
-		font-size: 40px;
-		line-height: 49px;
+		font-size: 34px;
+		line-height: 48px;
 		letter-spacing: 0.2px;
 	}
 
+	.fb-subtitle {
+		width: 100%;
+		text-align: center;
+	}
+
 	.content {
-		width: 90%;
+		width: 80%;
 	}
 
 	.projects-examples {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.projects-title {
+		font-size: 28px;
+		line-height: 40px;
+		margin-bottom: 5%;
 	}
 
 	.projects-examples>img {
@@ -65,18 +101,36 @@
 	}
 
 	.adv-items {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+
+	.adv-title {
+		font-size: 28px;
+		margin-bottom: 5%;
+		line-height: 40px;
 	}
 
 	.catalog-wrapper {
 		flex-direction: column;
-		margin-bottom: 20%;
+		/* margin-bottom: 20%; */
+	}
+
+	.catalog {
+		gap: 20px;
+	}
+
+	.catalog-title {
+		font-size: 28px;
+		line-height: 40px;
 	}
 
 	.catalog-item {
 		width: 80%;
+	}
+
+	.product-card {
+		height: 150px;
 	}
 
 	.adv-description {
@@ -90,25 +144,16 @@
 
 	.adv-desc-title {
 		font-size: 34px;
+		margin-bottom: 5%;
 	}
 
 	.adv-desc-col {
-		align-items: center;
-	}
-
-	.adv-desc-col-2 {
-		width: 100%;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.adv-desc-col {
-		width: 80%;
-		text-align: center;
+		align-items: start;
 	}
 
 	.form-title {
 		text-align: center;
+		font-size: 34px;
 	}
 
 	.double-bg-wrap .background-dark-2 {
@@ -118,7 +163,11 @@
 	.cooperation-wrap {
 		text-align: center;
 		width: 100%;
-		height: 100%;
+		height: auto;
+	}
+
+	.coop-title {
+		font-size: 34px;
 	}
 
 	.contact-us-wrap {
@@ -146,4 +195,147 @@
 		align-items: center;
 	}
 
+	.footer-block {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+
+	.order-form {
+		width: 100%;
+	}
+
+	.coop-form {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.slide-image {
+		width: 200px;
+		height: 350px;
+	}
+
+	.navbar img {
+		width: 220px;
+	}
+
+}
+
+@media only screen and (max-width: 986px) {
+
+	.phone-number {
+		font-size: 28px;
+	}
+
+	.header-content {
+		gap: 50px;
+	}
+
+	.slide-image {
+		width: 275px;
+		height: 400px;
+	}
+
+	.fb-subtitle {
+		width: 60%;
+	}
+
+	.product-card {
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 486px) {
+	.navbar {
+		flex-direction: column;
+		justify-content: center;
+		gap: 25px;
+	}
+
+	.header-content {
+		gap: 50px;
+	}
+
+	.navbar img {
+		width: 250px;
+	}
+
+	.social-links {
+		gap: 30px;
+	}
+
+	.contacts {
+		padding: 0;
+	}
+
+	.phone-number {
+		font-size: 24px;
+	}
+
+	.link-wrap {
+		width: 35px;
+		height: 35px;
+		border-radius: 0;
+	}
+
+	.slide-image {
+		width: 100% !important;
+	}
+
+	.first-block {
+		gap: 20px;
+	}
+
+	.fb-title {
+		font-size: 28px;
+	}
+
+	.fb-subtitle {
+		font-size: 18px;
+	}
+
+	.adv-desc-title {
+		font-size: 28px;
+		line-height: 40px;
+	}
+
+	.form-title {
+		font-size: 28px;
+	}
+
+	.coop-title {
+		font-size: 28px;
+	}
+
+	.order-button-dark,
+	.order-button-light {
+		width: 100%;
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.slide-image {
+		width: 220px !important;
+	}
+
+	.fb-subtitle {
+		width: 50%;
+	}
+
+	.header-content {
+		width: 85%;
+	}
+
+	.anchors {
+		gap: 10px;
+	}
+
+}
+
+@media screen and (min-width: 1440px) {
+	.slide-image {
+		width: 250px !important;
+	}
 }

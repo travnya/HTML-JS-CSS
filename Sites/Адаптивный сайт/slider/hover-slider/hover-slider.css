@@ -1,0 +1,25 @@
+.hover-slider-indicator {
+	position: absolute;
+	top: auto;
+	right: 0;
+	bottom: .75rem;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hover-slider-indicator-dot {
+	background-color: #c4c4c4;
+	opacity: .75;
+	border-radius: 50%;
+	height: 7px;
+	width: 7px;
+	margin-left: .1rem;
+	margin-right: .1rem;
+}
+
+.hover-slider-indicator-dot.active {
+	background-color: #252B42;
+	opacity: 1;
+}

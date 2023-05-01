@@ -1,0 +1,38 @@
+.slider {
+	padding: 0 30px 0 20px;
+	margin-top: 5%;
+	width: 100%;
+}
+
+.slide {
+	width: fit-content;
+}
+
+.slide-image {
+	margin: 0 auto;
+	/* width: 200px; */
+	height: 400px;
+}
+
+.slick-next,
+.slick-prev {
+	z-index: 99;
+	top: 50%;
+	position: absolute;
+	border: none;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+}
+
+.slick-next {
+	right: 0;
+	background: url('/sources/icons/right_arrow.svg') no-repeat;
+	background-size: contain;
+}
+
+.slick-prev {
+	left: 0;
+	background: url('/sources/icons/left_arrow.svg') no-repeat;
+	background-size: contain;
+}

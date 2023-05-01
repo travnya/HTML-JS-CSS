@@ -7,60 +7,69 @@
 	<title>Quadro Ceramics</title>
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="adaptation.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slider/slider.css">
+	<link rel="stylesheet" href="./slider/hover-slider/hover-slider.css">
 </head>
 
 <body>
 
 	<!-- Первый блок -->
 	<div class="background-dark">
-		<header class="header-content">
-			<nav class="navbar">
-				<img src="/sources/icons/main_logo.svg" alt="Logo">
+		<header class="header-content" id="header">
+			<nav class="navbar" id="navbar">
+				<img src="/sources/icons/main_logo.svg" alt="Logo" class="logo-image">
 
 				<div class="anchors">
 					<a href="#advatages" class="anchor">Наши преимущества</a>
 					<a href="#catalog" class="anchor">Каталог изделий</a>
+					<a href="#delivery" class="anchor">Оплата и доставка</a>
+					<a href="#coop" class="anchor">Дизайнерам</a>
 					<a href="#contact-us" class="anchor">Контакты</a>
 				</div>
 
-				<div class="contacts">
-
-					<div class="contact">
-						<img src="/sources/icons/phone_icon.svg" alt="phone">
-						<a href="tel:+79999999" class="phone-number">+7 (999) 99-99</a>
-					</div>
-
-					<div class="contact">
-						<img src="/sources/icons/mail_icon.svg" alt="mail">
-						<a href="mailto:example@mail.ru" class="mail">example@mail.ru</a>
-					</div>
-
-				</div>
-
 				<div class="social-links">
-					<a href="" class="social-link">
-						<img src="/sources/icons/instagram_icon.svg" alt="instagram">
+					<a href="https://www.instagram.com/quadroceramic/" target="_blank" class="social-link">
+						<div class="link-wrap">
+							<img src="/sources/icons/instagram_icon.svg" class="social-link-icon" alt="instagram">
+						</div>
 					</a>
-					<a href="" class="social-link">
-						<img src="/sources/icons/vk_icon.svg" alt="vk">
+					<a href="https://vk.com/cuadroceramic" target="_blank" class="social-link">
+						<div class="link-wrap">
+							<img src="/sources/icons/vk_icon.svg" class="social-link-icon" alt="vk">
+						</div>
 					</a>
-					<a href="" class="social-link">
-						<img src="/sources/icons/telegram_icon.svg" alt="telegram">
+					<a href="https://t.me/QuadroCeramic" target="_blank" class="social-link">
+						<div class="link-wrap">
+							<img src="/sources/icons/telegram_icon.svg" class="social-link-icon" alt="telegram">
+						</div>
 					</a>
-					<a href="" class="social-link">
-						<img src="/sources/icons/whatsapp_icon.svg" alt="whatsapp">
+					<a href="https://wa.me/9935999099" target="_blank" class="social-link">
+						<div class="link-wrap">
+							<img src="/sources/icons/whatsapp_icon.svg" class="social-link-icon" alt="whatsapp">
+						</div>
 					</a>
 				</div>
+
+					<div class="phone-wrapper">
+						<img src="/sources/icons/phone_icon.svg" alt="phone">
+						<a href="tel:+79935999099" class="phone-number">+7 993 599 90 99</a>
+					</div>
+
 			</nav>
 
 			<div class="first-block">
 				<p class="fb-title">Производство раковин <br> из керамогранита.</p>
-				<p class="fb-subtitle">по индивидуальным размерам</p>
-				<p class="fb-subtitle">по вашему дизайну <br> с доставкой и монтажом по всему миру <br> от 10 дней c гарантией
-					5 лет</p>
-				<button class="order-button-light">
-					СДЕЛАТЬ ЗАКАЗ
-				</button>
+				<p class="fb-subtitle">По индивидуальным размерам и вашему дизайну.
+				</p>
+				<p class="fb-subtitle">
+					С надежной доставкой по всей России и ближнему зарубежью
+				</p>
+				<a href="#payment-form">
+					<button class="order-button-light">
+						Сделать заказ
+					</button>
+				</a>
 			</div>
 		</header>
 	</div>
@@ -69,128 +78,122 @@
 	<div class="background-light">
 		<div class="content">
 
-			<div class="projects">
+			<div class="projects" id="projects">
 				<p class="projects-title">Проекты дизайнеров с использованием наших изделий</p>
 				<div class="projects-examples">
-					<img src="/sources/images/example1.png" alt="example">
-					<img src="/sources/images/example2.png" alt="example">
-					<img src="/sources/images/example3.png" alt="example">
+					<div class="slider">
+						<div class="slide">
+							<img src="sources/images/examples/example-1.jpg" class="slide-image">
+						</div>
+						<div class="slide">
+							<img src="sources/images/examples/example-2.jpg" class="slide-image">
+						</div>
+						<div class="slide">
+							<img src="sources/images/examples/example-3.jpg" class="slide-image">
+						</div>
+						<div class="slide">
+							<img src="sources/images/examples/example-4.jpg" class="slide-image">
+						</div>
+						<div class="slide">
+							<img src="sources/images/examples/example-5.jpg" class="slide-image">
+						</div>
+						<div class="slide">
+							<img src="sources/images/examples/example-6.jpg" class="slide-image">
+						</div>
+						<div class="slide">
+							<img src="sources/images/examples/example-7.jpg" class="slide-image">
+						</div>
+						<div class="slide">
+							<img src="sources/images/examples/example-8.jpg" class="slide-image">
+						</div>
+						<div class="slide">
+							<img src="sources/images/examples/example-9.jpg" class="slide-image">
+						</div>
+						<div class="slide">
+							<img src="sources/images/examples/example-10.jpg" class="slide-image">
+						</div>
+					</div>
 				</div>
 			</div>
 
 		</div>
-	</div>
-	<div class="background-light">
-		<div class="content">
-
-			<div class="description">
-				<div class="desc-item">
-
-					<div class="desc-title-wrap">
-						<p class="desc-title">За счет чего достигаются подобные качества?</p>
-						<p class="desc-subtitle">Керамогранит получается при смешивании каолиновой глины с полевым шпатом, кварцем
-							и
-							минералами. А необходимый цвет образуется путем добавления минеральных пигментов.
-							Далее происходит процесс прессования смеси под высоким давлением, и обжиг при температуре 1300 С. Именно
-							благодаря долгому и сложному процессу производства керамогранит приобретает свои особенные качества и
-							становится идеальным материалом для изготовления уникальных предметов интерьера, которые притягивают
-							взгляд.</p>
-					</div>
-
-					<img src="/sources/images/desc-photo-2.png" alt="" class="desc-photo">
-
-				</div>
-				<div class="desc-item-2">
-
-					<img src="/sources/images/desc-photo-1.png" alt="" class="desc-photo">
-
-					<div class="desc-title-wrap">
-						<p class="desc-title">Почему именно раковины QuadroCeramic?</p>
-						<p class="desc-subtitle">Мы изготовим в короткие сроки, даже самые необычные варианты по вашему дизайну
-							или
-							изготовим раковину из типового
-							каталога. Выбирайте любой размер, форму и цвет, а QuadroCeramic воплотит в жизнь вашу задумку.</p>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-
 	</div>
 
 	<!-- Наши преимущества -->
 	<div class="background-light">
+		<a name="advatages"></a>
 		<div class="content">
 			<div class="advatages">
 
-				<a name="advatages">
-					<p class="adv-title">Наши преимущества</p>
-				</a>
+				<p class="adv-title">Почему именно раковины QuadroCeramic?</p>
 
 				<div class="adv-items">
-					<div class="adv-items-col">
+					<!-- <div class="adv-items-col"> -->
 
-						<div class="adv-item">
-							<div class="adv-pointer"></div>
-							<div class="adv-item-title-wrap">
-								<p class="adv-item-title">Изготовление точно в срок</p>
-								<p class="adv-item-subtitle">Things on a very small that you
-									have any direct</p>
-							</div>
+					<div class="adv-item">
+						<div class="adv-pointer"></div>
+						<div class="adv-item-title-wrap">
+							<p class="adv-item-title">
+								Изготовим раковины любого размер из любого керамогранита
+							</p>
 						</div>
-
-						<div class="adv-item">
-							<div class="adv-pointer"></div>
-							<div class="adv-item-title-wrap">
-								<p class="adv-item-title">Доставка по России и ближнему зарубежью надежными транспортными
-									компаниями.
-								</p>
-								<p class="adv-item-subtitle">Things on a very small that you
-									have any direct</p>
-							</div>
-						</div>
-
 					</div>
 
-					<div class="adv-items-col">
-
-						<div class="adv-item">
-							<div class="adv-pointer"></div>
-							<div class="adv-item-title-wrap">
-								<p class="adv-item-title">Доставка по России и ближнему зарубежью надежными транспортными
-									компаниями.
-								</p>
-								<p class="adv-item-subtitle">Things on a very small that you
-									have any direct</p>
-							</div>
+					<div class="adv-item">
+						<div class="adv-pointer"></div>
+						<div class="adv-item-title-wrap">
+							<p class="adv-item-title">
+								Услуги монтажа и помощь в случае самостоятельной установки
+							</p>
 						</div>
-
 					</div>
 
-					<div class="adv-items-col">
+					<!-- </div> -->
 
-						<div class="adv-item">
-							<div class="adv-pointer"></div>
-							<div class="adv-item-title-wrap">
-								<p class="adv-item-title">Изготовление точно в срок</p>
-								<p class="adv-item-subtitle">Things on a very small that you
-									have any direct</p>
-							</div>
+					<!-- <div class="adv-items-col"> -->
+
+					<div class="adv-item">
+						<div class="adv-pointer"></div>
+						<div class="adv-item-title-wrap">
+							<p class="adv-item-title">
+								Изготовим точно в срок
+							</p>
 						</div>
-
-						<div class="adv-item">
-							<div class="adv-pointer"></div>
-							<div class="adv-item-title-wrap">
-								<p class="adv-item-title">Доставка по России и ближнему зарубежью надежными транспортными
-									компаниями.
-								</p>
-								<p class="adv-item-subtitle">Things on a very small that you
-									have any direct</p>
-							</div>
-						</div>
-
 					</div>
+
+					<div class="adv-item">
+						<div class="adv-pointer"></div>
+						<div class="adv-item-title-wrap">
+							<p class="adv-item-title">
+								Доставка по России и ближнему зарубежью надежными транспортными компаниями
+							</p>
+						</div>
+					</div>
+
+					<!-- </div> -->
+
+					<!-- <div class="adv-items-col"> -->
+
+					<div class="adv-item">
+						<div class="adv-pointer"></div>
+						<div class="adv-item-title-wrap">
+							<p class="adv-item-title">
+								Доставка курьерской службой по Москве и Московской области
+							</p>
+						</div>
+					</div>
+
+					<div class="adv-item">
+						<div class="adv-pointer"></div>
+						<div class="adv-item-title-wrap">
+							<p class="adv-item-title">
+								Надежная упаковка товара перед отправкой. 100% гарантия сохранения целостности
+								товара
+							</p>
+						</div>
+					</div>
+
+					<!-- </div> -->
 
 				</div>
 			</div>
@@ -199,38 +202,46 @@
 
 	<!-- Каталог изделий -->
 	<div class="background-light">
+		<a name="catalog"></a>
 		<div class="content">
-			<div class="catalog">
-				<a name="catalog">
-					<p class="catalog-title">Каталог изделий</p>
-				</a>
+			<div class="catalog" id="catalog">
+				<p class="catalog-title">Каталог изделий</p>
 
 				<div class="catalog-wrapper">
 
 					<div class="catalog-item">
-						<img src="/sources/images/catalog-1.svg" class="catalog-example">
-						<p class="catalog-name">Graphic Design</p>
+						<div class="product-card">
+							<img src="/sources/catalog-images/1.1.jpg"
+								data-hover-slides="/sources/catalog-images/1.2.jpg, /sources/catalog-images/1.3.jpg">
+						</div>
+						<p class="catalog-name">Модель 1</p>
 						<div class="catalog-price-wrap">
 							<p class="catalog-price-prefix">от</p>
-							<p class="catalog-price">2 199 ₽</p>
+							<p class="catalog-price">44 800 ₽</p>
 						</div>
 					</div>
 
 					<div class="catalog-item">
-						<img src="/sources/images/catalog-2.svg" class="catalog-example">
-						<p class="catalog-name">Graphic Design</p>
+						<div class="product-card">
+							<img src="/sources/catalog-images/2.1.jpg"
+								data-hover-slides="/sources/catalog-images/2.2.jpg, /sources/catalog-images/2.3.jpg">
+						</div>
+						<p class="catalog-name">Модель 2</p>
 						<div class="catalog-price-wrap">
 							<p class="catalog-price-prefix">от</p>
-							<p class="catalog-price">2 199 ₽</p>
+							<p class="catalog-price">77 900 ₽</p>
 						</div>
 					</div>
 
 					<div class="catalog-item">
-						<img src="/sources/images/catalog-3.svg" class="catalog-example">
-						<p class="catalog-name">Graphic Design</p>
+						<div class="product-card">
+							<img src="/sources/catalog-images/3.1.jpg"
+								data-hover-slides="/sources/catalog-images/3.2.jpg, /sources/catalog-images/3.3.jpg">
+						</div>
+						<p class="catalog-name">Модель 3</p>
 						<div class="catalog-price-wrap">
 							<p class="catalog-price-prefix">от</p>
-							<p class="catalog-price">2 199 ₽</p>
+							<p class="catalog-price">44 800 ₽</p>
 						</div>
 					</div>
 
@@ -239,89 +250,200 @@
 				<div class="catalog-wrapper">
 
 					<div class="catalog-item">
-						<img src="/sources/images/catalog-4.svg" class="catalog-example">
-						<p class="catalog-name">Graphic Design</p>
+						<div class="product-card">
+							<img src="/sources/catalog-images/4.1.jpg"
+								data-hover-slides="/sources/catalog-images/4.2.jpg, /sources/catalog-images/4.3.jpg">
+						</div>
+						<p class="catalog-name">Модель 4</p>
 						<div class="catalog-price-wrap">
 							<p class="catalog-price-prefix">от</p>
-							<p class="catalog-price">2 199 ₽</p>
+							<p class="catalog-price">44 800 ₽</p>
 						</div>
 					</div>
 
 					<div class="catalog-item">
-						<img src="/sources/images/catalog-5.svg" class="catalog-example">
-						<p class="catalog-name">Graphic Design</p>
+						<div class="product-card">
+							<img src="/sources/catalog-images/5.1.jpg"
+								data-hover-slides="/sources/catalog-images/5.2.jpg, /sources/catalog-images/5.3.jpg">
+						</div>
+						<p class="catalog-name">Модель 5</p>
 						<div class="catalog-price-wrap">
 							<p class="catalog-price-prefix">от</p>
-							<p class="catalog-price">2 199 ₽</p>
+							<p class="catalog-price">44 800 ₽</p>
 						</div>
 					</div>
 
 					<div class="catalog-item">
-						<img src="/sources/images/catalog-6.svg" class="catalog-example">
-						<p class="catalog-name">Graphic Design</p>
+						<div class="product-card">
+							<img src="/sources/catalog-images/6.1.jpg"
+								data-hover-slides="/sources/catalog-images/6.2.jpg, /sources/catalog-images/6.3.jpg">
+						</div>
+						<p class="catalog-name">Модель 6</p>
 						<div class="catalog-price-wrap">
 							<p class="catalog-price-prefix">от</p>
-							<p class="catalog-price">2 199 ₽</p>
+							<p class="catalog-price">76 700 ₽</p>
 						</div>
 					</div>
 
 				</div>
+				<div id="show-more-content" style="display: none">
+
+					<div class="catalog-wrapper">
+
+						<div class="catalog-item">
+							<div class="product-card">
+								<img src="/sources/catalog-images/7.1.jpg"
+									data-hover-slides="/sources/catalog-images/7.2.jpg, /sources/catalog-images/7.3.jpg">
+							</div>
+							<p class="catalog-name">Модель 7</p>
+							<div class="catalog-price-wrap">
+								<p class="catalog-price-prefix">от</p>
+								<p class="catalog-price">76 900 ₽</p>
+							</div>
+						</div>
+
+						<div class="catalog-item">
+							<div class="product-card">
+								<img src="/sources/catalog-images/8.1.jpg"
+									data-hover-slides="/sources/catalog-images/8.2.jpg, /sources/catalog-images/8.3.jpg">
+							</div>
+							<p class="catalog-name">Модель 8</p>
+							<div class="catalog-price-wrap">
+								<p class="catalog-price-prefix">от</p>
+								<p class="catalog-price">44 800 ₽</p>
+							</div>
+						</div>
+
+						<div class="catalog-item">
+							<div class="product-card">
+								<img src="/sources/catalog-images/9.1.jpg"
+									data-hover-slides="/sources/catalog-images/9.2.jpg, /sources/catalog-images/9.3.jpg">
+							</div>
+							<p class="catalog-name">Модель 9</p>
+							<div class="catalog-price-wrap">
+								<p class="catalog-price-prefix">от</p>
+								<p class="catalog-price">78 000 ₽</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="catalog-wrapper">
+
+						<div class="catalog-item">
+							<div class="product-card">
+								<img src="/sources/catalog-images/10.1.jpg"
+									data-hover-slides="/sources/catalog-images/10.2.jpg, /sources/catalog-images/10.3.jpg">
+							</div>
+							<p class="catalog-name">Модель 10</p>
+							<div class="catalog-price-wrap">
+								<p class="catalog-price-prefix">от</p>
+								<p class="catalog-price">44 800 ₽</p>
+							</div>
+						</div>
+
+						<div class="catalog-item">
+							<div class="product-card">
+								<img src="/sources/catalog-images/11.1.jpg"
+									data-hover-slides="/sources/catalog-images/11.2.jpg, /sources/catalog-images/11.3.jpg">
+							</div>
+							<p class="catalog-name">Модель 11</p>
+							<div class="catalog-price-wrap">
+								<p class="catalog-price-prefix">от</p>
+								<p class="catalog-price">44 800 ₽</p>
+							</div>
+						</div>
+
+						<div class="catalog-item">
+							<div class="product-card">
+								<img src="/sources/catalog-images/12.1.jpg"
+									data-hover-slides="/sources/catalog-images/12.2.jpg, /sources/catalog-images/12.3.jpg">
+							</div>
+							<p class="catalog-name">Модель 12</p>
+							<div class="catalog-price-wrap">
+								<p class="catalog-price-prefix">от</p>
+								<p class="catalog-price">44 800 ₽</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="catalog-wrapper">
+
+						<div class="catalog-item">
+							<div class="product-card">
+								<img src="/sources/catalog-images/13.1.jpg"
+									data-hover-slides="/sources/catalog-images/13.2.jpg, /sources/catalog-images/13.3.jpg">
+							</div>
+							<p class="catalog-name">Модель 13</p>
+							<div class="catalog-price-wrap">
+								<p class="catalog-price-prefix">от</p>
+								<p class="catalog-price">44 800 ₽</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<button class="order-button-dark centered-button" id="show-more-btn" onclick="showMore()">
+					Показать ещё
+				</button>
 
 			</div>
 		</div>
 	</div>
 
-	<!-- Описание преимуществ -->
+	<!-- Оплата и доставка -->
 	<div class="background-dark">
+		<a name="delivery"></a>
 		<div class="content">
 			<div class="adv-description">
+				<p class="adv-desc-title">
+					Оплата и доставка
+				</p>
 
-				<div class="adv-desc-wrap">
 
-					<div class="adv-desc-col">
-						<p class="adv-desc-title">
-							Какими преимуществами обладают керамогранитные раковины?
+				<div class="adv-desc-col">
+
+					<div class="adv-desc-item">
+						<div class="adv-desc-item-pointer">1</div>
+						<p class="adv-desc-item-name">
+							Мы подготавливаем эскиз, согласовываем его с Вами, выставляем счет и договор
 						</p>
-						<p class="adv-desc-subtitle">
-							Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian
-							mechanics
+					</div>
+					<div class="adv-desc-item">
+						<div class="adv-desc-item-pointer">2</div>
+						<p class="adv-desc-item-name">
+							Вы вносите предоплату удобным для Вас способом
 						</p>
-						<button class="order-button-light">СДЕЛАТЬ ЗАКАЗ!</button>
 					</div>
-
-
-					<div class="adv-desc-col-2">
-						<div class="adv-desc-item">
-							<div class="adv-desc-item-pointer"></div>
-							<p class="adv-desc-item-name">Безграничный выбор цветов и фактур</p>
-						</div>
-						<div class="adv-desc-item">
-							<div class="adv-desc-item-pointer"></div>
-							<p class="adv-desc-item-name">Устойчивость к повреждениям</p>
-						</div>
-						<div class="adv-desc-item">
-							<div class="adv-desc-item-pointer"></div>
-							<p class="adv-desc-item-name">Влагостойксть</p>
-						</div>
+					<div class="adv-desc-item">
+						<div class="adv-desc-item-pointer">3</div>
+						<p class="adv-desc-item-name">
+							В течении утвержденного срока мы изготавливаем изделие
+						</p>
 					</div>
-
-					<div class="adv-desc-col-2">
-						<div class="adv-desc-item">
-							<div class="adv-desc-item-pointer"></div>
-							<p class="adv-desc-item-name">Высокая прочность</p>
-						</div>
-						<div class="adv-desc-item">
-							<div class="adv-desc-item-pointer"></div>
-							<p class="adv-desc-item-name">Устойчивость к химикатам</p>
-						</div>
-						<div class="adv-desc-item">
-							<div class="adv-desc-item-pointer"></div>
-							<p class="adv-desc-item-name">Морозостойкость</p>
-						</div>
+					<div class="adv-desc-item">
+						<div class="adv-desc-item-pointer">4</div>
+						<p class="adv-desc-item-name">
+							Отправляем Вам фотографии готового изделия
+						</p>
+					</div>
+					<div class="adv-desc-item">
+						<div class="adv-desc-item-pointer">5</div>
+						<p class="adv-desc-item-name">
+							После чего Вам необходимо внести оставшуюся часть стоимости изделия
+						</p>
+					</div>
+					<div class="adv-desc-item">
+						<div class="adv-desc-item-pointer">6</div>
+						<p class="adv-desc-item-name">
+							Отправка/курьерская доставка осуществляется не позднее чем через 5 дней после
+							100% оплаты изделия
+						</p>
 					</div>
 
 				</div>
-
 
 			</div>
 		</div>
@@ -329,35 +451,34 @@
 
 	<!-- Расчёт стоимости -->
 	<div class="double-bg-wrap">
+		<div class="background-dark-2">
+			<div class="content">
+
+			</div>
+		</div>
 		<div class="background-light">
+			<a name="payment-form"></a>
 			<div class="content">
 
 				<p class="form-title">
 					Заказать расчёт стоимости
 				</p>
 
-				<form action="" class="order-form">
-					<input placeholder="Email*" class="form-element" type="text" required>
-					<select class="form-element">
-						<option>Первый пункт</option>
-						<option>Второй пункт</option>
-						<option>Третий пункт</option>
-					</select>
-					<textarea name="" placeholder="Message" class="form-element textarea"></textarea>
-					<input type="submit" class="order-button-dark" value="СДЕЛАТЬ ЗАКАЗ!">
+				<form class="order-form" id="order-form">
+					<input placeholder="Имя" class="form-element" type="text" name="order-name" required>
+					<input type="tel" placeholder="Номер" id="tel" class="form-element" name="order-tel" required
+						pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)">
+					<textarea placeholder="Сообщение" class="form-element textarea" name="order-message"></textarea>
+					<input type="submit" class="order-button-dark" value="Отправить">
 				</form>
-
-			</div>
-		</div>
-		<div class="background-dark-2">
-			<div class="content">
 
 			</div>
 		</div>
 	</div>
 
 	<!-- Сотрудничество -->
-	<div class="background-dark">
+	<div class="designers-bg">
+		<a name="coop"></a>
 		<div class="content">
 
 			<div class="cooperation-wrap">
@@ -376,9 +497,11 @@
 					<li class="coop-list-item"> · <strong>Размещение ваших работ</strong> на нашем сайте</li>
 				</ul>
 
-				<button class="order-button-light">
-					ОСТАВИТЬ ЗАЯВКУ!
-				</button>
+				<form class="order-form coop-form" id="coop-form">
+					<input placeholder="Имя" name="coop-name" class="form-element" type="text" required>
+					<input placeholder="Почта" name="coop-mail" class="form-element" type="text" required>
+					<input type="submit" class="order-button-light" value="Оставить заявку">
+				</form>
 
 			</div>
 
@@ -387,102 +510,52 @@
 
 	<!-- Напишите нам -->
 	<div class="background-light">
+		<a name="contact-us"></a>
 		<div class="content">
 
-			<a name="contact-us"></a>
-
 			<div class="contact-us-wrap">
+				<div class="footer-block">
+					<img src="/sources/icons/main-logo-dark.svg" alt="logo">
 
-				<div class="contact-us-col">
-
-					<p class="contact-us-title">СВЯЖИТЕСЬ С НАМИ</p>
-					<p class="contact-us-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, deserunt
-						molestiae, animi perspiciatis tempore, atque possimus temporibus repellat nobis amet facere voluptate nisi
-						ullam?</p>
-					<button class="order-button-dark">СДЕЛАТЬ ЗАКАЗ!</button>
+					<p class="footer-mail-dark">
+						г. Москва
+					</p>
+					<p class="footer-mail-dark">
+						Доставка по всей России
+					</p>
 
 				</div>
+				<div class="footer-block">
 
-				<div class="contact-us-col-2">
+					<div class="footer-contact">
+						<img src="/sources/icons/phone-dark.svg" alt="phone">
+						<a href="tel:+79935999099" class="footer-phone-dark">+7 993 599 90 99</a>
+					</div>
 
-					<div class="contact-us-col-2-wrapper">
-
-						<div class="contact-us-subcol">
-							<div class="contact-us-item">
-
-								<p class="contact-us-item-title">Paris</p>
-
-								<p class="contact-us-item-subtitle">1901 Thorn ridge Cir.</p>
-
-								<div class="contact-us-item-divider"></div>
-
-								<p class="contact-us-item-subtitle">75000 Paris</p>
-
-								<p class="contact-us-item-subtitle">Phone : +451 215 215</p>
-
-								<p class="contact-us-item-subtitle">Fax : +451 215 215</p>
-
-							</div>
-
-							<div class="contact-us-item">
-
-								<p class="contact-us-item-title">Berlin</p>
-
-								<p class="contact-us-item-subtitle">4140 Parker Rd.</p>
-
-								<div class="contact-us-item-divider"></div>
-
-								<p class="contact-us-item-subtitle">75000 Paris</p>
-
-								<p class="contact-us-item-subtitle">Phone : +451 215 215</p>
-
-								<p class="contact-us-item-subtitle">Fax : +451 215 215</p>
-
-							</div>
-						</div>
-
-						<div class="contact-us-subcol">
-							<div class="contact-us-item">
-
-								<p class="contact-us-item-title">New York</p>
-
-								<p class="contact-us-item-subtitle">2715 Ash Dr. San Jose,</p>
-
-								<div class="contact-us-item-divider"></div>
-
-								<p class="contact-us-item-subtitle">75000 Paris</p>
-
-								<p class="contact-us-item-subtitle">Phone : +451 215 215</p>
-
-								<p class="contact-us-item-subtitle">Fax : +451 215 215</p>
-
-							</div>
-
-							<div class="contact-us-item">
-
-								<p class="contact-us-item-title">London</p>
-
-								<p class="contact-us-item-subtitle">3517 W. Gray St. Utica,</p>
-
-								<div class="contact-us-item-divider"></div>
-
-								<p class="contact-us-item-subtitle">75000 Paris</p>
-
-								<p class="contact-us-item-subtitle">Phone : +451 215 215</p>
-
-								<p class="contact-us-item-subtitle">Fax : +451 215 215</p>
-
-							</div>
-						</div>
-
+					<div class="footer-contact">
+						<img src="/sources/icons/mail-dark.svg" alt="mail">
+						<a href="mailto:quadroceramic@mail.ru" class="footer-mail-dark">quadroceramic@main.ru</a>
 					</div>
 				</div>
+
 			</div>
-
 		</div>
-	</div>
 
 	</div>
+
+	<!-- Скрипты -->
+	<!-- Доп. скрипты для слайдера -->
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="slider/slider.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/web-projects-lab/hover-slider@1.0.3/hover-slider.min.js"></script>
+
+	<!-- Основной скрипт -->
+	<script src="index.js"></script>
+
+	<!-- Отправка данных через форму -->
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
